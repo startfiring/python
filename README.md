@@ -1,2 +1,3 @@
 # python
-my python learning practice
+
+use this repository to save all my exercises since Jan 2019
