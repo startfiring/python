@@ -23,7 +23,7 @@ def raise_to_power2(base_num, pow_num):
 
     return result
 print(raise_to_power1(3, 5))
-print(raise_to_power2(3, 5))
+print(raise_to_power2(3, 15))
 
 
 
