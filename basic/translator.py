@@ -9,4 +9,3 @@ def translate(phrase):
 
 input_phrase = input("enter a word: ")
 print("translated to: " + translate(input_phrase))
-
