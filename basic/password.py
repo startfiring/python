@@ -55,10 +55,57 @@ def get_password(word):
         elif letter in "z":
             letter = "c"
         password += letter
-    return password
-        
+    return password      
 
 input_word = input("enter a word: ")
 print("The new password is " + get_password(input_word))
+
+
+translate = {
+    "a" : "d",
+    "b" : "e",
+    "c" : "f",
+    "d" : "g",
+    "e" : "h",
+    "f" : "i",
+    "g" : "j",
+    "h" : "k",
+    "i" : "l",
+    "j" : "m",
+    "k" : "n",
+    "l" : "o",
+    "m" : "p",
+    "n" : "q",
+    "o" : "r",
+    "p" : "s",
+    "q" : "t",
+    "r" : "u",
+    "s" : "v",
+    "t" : "w",
+    "u" : "x",
+    "v" : "y",
+    "w" : "z",
+    "x" : "a",
+    "y" : "b",
+    "z" : "c"
+}
+
+def letter_trans(word):
+    result = ""
+    for letter in word:
+        letter=translate.get(letter,letter)
+        result += letter
+
+    return result
+
+input_word = input("enter a word: ")
+print("The new password is " + letter_trans(input_word))
+
+letter = "a"
+ascii_letter = ord(letter)
+new_letter = chr(ascii_letter + 3)
+
+print(ascii_letter)
+print(new_letter)
 
 
