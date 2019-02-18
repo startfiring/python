@@ -101,11 +101,3 @@ def letter_trans(word):
 input_word = input("enter a word: ")
 print("The new password is " + letter_trans(input_word))
 
-letter = "a"
-ascii_letter = ord(letter)
-new_letter = chr(ascii_letter + 3)
-
-print(ascii_letter)
-print(new_letter)
-
-
