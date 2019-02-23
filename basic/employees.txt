@@ -1,0 +1,6 @@
+Kevin - Salesman
+Jenny - Salesman
+Owen -Receptionist
+Michael - Manager
+Oscar - Accountant
+John - Human Resources
